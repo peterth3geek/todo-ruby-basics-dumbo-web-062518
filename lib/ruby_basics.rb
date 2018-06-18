@@ -8,10 +8,10 @@ end
 
 def argue(point)
   return point
-
 end
 
-def greeting
+def greeting(greeting, name)
+  return "#{greeting}, #{name}!"
 
 end
 
