@@ -37,7 +37,7 @@ describe "ruby" do
       expect{ greeting(greeting, name) }.to_not raise_error
     end
 
-    it 'raises an error with one argument' do
+    it 'expects 2 arguments to be present, but only one is submitted.' do
       greeting = "Hi there, "
 
       expect{ greeting(greeting)}.to raise_error
